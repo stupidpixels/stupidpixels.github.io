@@ -7,130 +7,326 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <meta name="theme-color" content="#000000">
+    <title>INVOID</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Fonts -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- Custom Theme CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/nivo-lightbox.css" rel="stylesheet" />
+	<link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+	<link href="css/animations.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Frank</span> Gonzalez
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#Code">Code</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <section class="intro">
-        <div class="intro-body">
+	<section class="hero" id="intro">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading"><span class="light">HAXE</h1><hr/>
-                        <p class="intro-text">"I have loved the starts too fondly to be afraid of the dark."<br />― Sarah Williams</p>
-                        <div class="page-scroll">
-                            <a href="#about" class="btn btn-circle">
-                                <i class="fa fa-angle-double-down animated"></i>
-                            </a>
-                        </div>
-                    </div>
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center inner">
+					<div class="animatedParent">
+						<h1 class="animated fadeInDown">INVOID</h1>
+						<p class="animated fadeInUp">We just popped a super molly.</p>
+					</div>
+			   </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="#about" class="learn-more-btn btn-scroll">Learn more</a>
+                </div>
+              </div>
+            </div>
+    </section>
+
+
+    <!-- Navigation -->
+    <div id="navigation">
+        <nav class="navbar navbar-custom" role="navigation">
+                              <div class="container">
+                                    <div class="row">
+                                          <div class="col-md-2">
+                                                   <div class="site-logo">
+                                                            <a href="index.html" class="brand">INVOID</a>
+                                                    </div>
+                                          </div>
+
+
+                                          <div class="col-md-10">
+
+                                                      <!-- Brand and toggle get grouped for better mobile display -->
+                                          <div class="navbar-header">
+                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                                <i class="fa fa-bars"></i>
+                                                </button>
+                                          </div>
+                                                      <!-- Collect the nav links, forms, and other content for toggling -->
+                                                      <div class="collapse navbar-collapse" id="menu">
+                                                            <ul class="nav navbar-nav navbar-right">
+                                                                  <li class="active"><a href="#intro">Home</a></li>
+                                                                  <li><a href="#about">About Us</a></li>
+																   <li><a href="#service">Services</a></li>
+                                                                  <li><a href="#works">Works</a></li>
+
+                                                                  <li><a href="#contact">Contact</a></li>
+                                                            </ul>
+                                                      </div>
+                                                      <!-- /.Navbar-collapse -->
+
+                                          </div>
+                                    </div>
+                              </div>
+                              <!-- /.container -->
+                        </nav>
+    </div>
+    <!-- /Navigation -->
+
+	<!-- Section: about -->
+    <section id="about" class="home-section color-dark bg-white">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="animatedParent">
+					<div class="section-heading text-center animated bounceInDown">
+					<h2 class="h-bold">About the team</h2>
+					<div class="divider-header"></div>
+					</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container">
+
+
+        <div class="row">
+
+
+            <div class="col-lg-8 col-lg-offset-2 animatedParent">
+				<div class="text-center">
+					<p>
+					INVOID is a team of visionaries with a passion for creativity and producing great content.
+                    We make Short Videos, Sketches, Documentaries, Advertisements And Video Games.
+					</p>
+					<a href="#service" class="btn btn-skin btn-scroll">What we do</a>
+				</div>
+            </div>
+
+        </div>
+		</div>
+
+	</section>
+	<!-- /Section: about -->
+
+
+	<!-- Section: services -->
+    <section id="service" class="home-section color-dark bg-gray">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div>
+					<div class="section-heading text-center">
+					<h2 class="h-bold">What we can do for you</h2>
+					<div class="divider-header"></div>
+					</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="text-center">
+		<div class="container">
+
+        <div class="row animatedParent">
+            <div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="animated rotateInDownLeft">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class="fa fa-laptop fa-2x"></span>
+					</div>
+					<div class="service-desc">
+						<h5>Multimedia</h5>
+						<div class="divider-header"></div>
+						<p>
+						We produce various types of media, including Audio and Video.
+						</p>
+					</div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="animated rotateInDownLeft slow">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class="fa fa-camera fa-2x"></span>
+					</div>
+					<div class="service-desc">
+						<h5>Film</h5>
+						<div class="divider-header"></div>
+						<p>
+						Our philosophy on film is that it is a form of self exploration and expression.
+                        We try to make films that enlighten the audience and tries to open their minds.
+						</p>
+					</div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="animated rotateInDownLeft slower">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class="fa fa-code fa-2x"></span>
+					</div>
+					<div class="service-desc">
+						<h5>Video Games</h5>
+						<div class="divider-header"></div>
+						<p>
+						We turn stories in to interactive art. This is the philosophy in mind when we create
+                        video games. They're art and a form of telling a story with a personal interaction.
+						</p>
+					</div>
+                </div>
+				</div>
+            </div>
+
+        </div>
+		</div>
+		</div>
+	</section>
+	<!-- /Section: services -->
+
+
+	<!-- Section: works -->
+    <section id="works" class="home-section color-dark text-center bg-white">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div>
+					<div class="animatedParent">
+					<div class="section-heading text-center">
+					<h2 class="h-bold animated bounceInDown">About Us</h2>
+					<div class="divider-header"></div>
+					</div>
+					</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container">
+
+            <div class="row animatedParent">
+                <div class="col-sm-12 col-md-12 col-lg-12" >
+
+                    <div class="row gallery-item">
+                        <div class="col-md-3 animated fadeInUp">
+							<a href="img/works/1.jpg" title="Frank Gonzalez - Programmer" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/works/1.jpg" class="img-responsive" alt="img">
+							</a>
+						</div>
+						<div class="col-md-3 animated fadeInUp slow">
+							<a href="img/works/2.jpg" title="Farrael Molina - Director/Writter" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/works/2.jpg" class="img-responsive" alt="img">
+							</a>
+						</div>
+						<div class="col-md-3 animated fadeInUp slower">
+							<a href="img/works/3.jpg" title="Xirux Alienroach - Music Engineer/Animator" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/works/3.jpg" class="img-responsive" alt="img">
+							</a>
+						</div>
+					</div>
+
                 </div>
             </div>
-        </div>
-    </section>
+		</div>
 
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Me</h2>
-                <p>Hey, I'm Frank Gonzalez, a Computer Science Mayor from Puerto Rico. I love Music, Video Games, and most of all Computers and Programming.</p>
-                <p>The languages I currently develop on are : C++, Python, Haskell, Ruby, PHP,  HTML and CSS</p>
-                <p>This site is a personal project and a type of presentation page. </p>
-            </div>
-        </div>
-    </section>
+	</section>
+	<!-- /Section: works -->
 
-    <section id="Code" class="content-section text-center">
-        <div class="Code-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Code</h2>
-                    <p></p>
-                    <a href="https://github.com/stupidpixels" class="btn btn-default btn-lg" target="_blank">Visit Github Page</a>
-                </div>
-            </div>
-        </div>
-    </section>
+	<!-- Section: contact -->
+    <section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="animatedParent">
+					<div class="section-heading text-center">
+					<h2 class="h-bold animated bounceInDown">Get in touch with us</h2>
+					<div class="divider-header"></div>
+					</div>
+					</div>
+				</div>
+			</div>
 
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Me</h2>
-                <p>Feel free to contact me via the links below to provide feedback or any suggestions.</p>
-                <p><a href="mailto:frankozoid@gmail.com?subject=SweetWords">Email Me</a></p>
-                <ul class="list-inline banner-social-buttons">
-                    <li><a href="https://plus.google.com/+FrankGonzalez/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name"target="_blank">Google+</span></a>
-                    </li>
-                    <li><a href="https://github.com/stupidpixels" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name"target="_blank">Github</span></a>
-                    </li>
-                    <li><a href="https://twitter.com/_HAXE" class="btn btn-default btn-lg" ><i class="fa fa-twitter fa-fw"></i> <span class="network-name"target="_blank">Twitter</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/_HAXE" data-widget-id="542236126833287168">Tweets by @_HAXE</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </section>
+		</div>
 
-    <div id="map"></div>
+		<div class="container">
+
+			<div class="row marginbot-80">
+				<div class="col-md-8 col-md-offset-2">
+						<form id="contact-form">
+						<div class="row marginbot-20">
+							<div class="col-md-6 xs-marginbot-20">
+								<input type="text" class="form-control input-lg" id="name" placeholder="Enter name" required="required" />
+							</div>
+							<div class="col-md-6">
+								<input type="email" class="form-control input-lg" id="email" placeholder="Enter email" required="required" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+										<input type="text" class="form-control input-lg" id="subject" placeholder="Subject" required="required" />
+								</div>
+								<div class="form-group">
+									<textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required"
+										placeholder="Message"></textarea>
+								</div>
+								<button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs">
+									Send Message</button>
+							</div>
+						</div>
+						</form>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+	<!-- /Section: contact -->
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="footer-menu">
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 
     <!-- Core JavaScript Files -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/nivo-lightbox.min.js"></script>
 
-    <!-- Google Maps API Key - You will need to use your own API key to use the map feature -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsTgsHlDeghiv2-rPZd_7mkc0fsLya00g&sensor=false"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+    <script src="js/custom.js"></script>
+	<script src="js/css3-animate-it.js"></script>
 
 </body>
 
