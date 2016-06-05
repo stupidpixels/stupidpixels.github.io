@@ -1,0 +1,72 @@
+
+/* Small screens (default) */
+html { font-size: 100%; }
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+  html { font-size: 112%; }
+}
+
+/* Large screens (1024px) */
+@media (min-width: 64rem) {
+  html { font-size: 120%; }
+}
+
+p {
+    font-style: Futura ;
+}
+
+@-webkit-keyframes blink {
+     0% { background: orange ; }
+    20% { background: yellow ; }
+    40% { background: green  ; }
+    60% { background: purple ; }
+    80% { background: pink   ; }
+    100%{ background: gold   ; }
+}
+@-moz-keyframes blink {
+     0% { background: orange ; }
+    20% { background: yellow ; }
+    40% { background: green  ; }
+    60% { background: purple ; }
+    80% { background: pink   ; }
+    100%{ background: gold   ; }
+}
+@-ms-keyframes blink {
+     0% { background: orange ; }
+    20% { background: yellow ; }
+    40% { background: green  ; }
+    60% { background: purple ; }
+    80% { background: pink   ; }
+    100%{ background: gold   ; }
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  -webkit-animation: blink 5s infinite;
+  -moz-animation:    blink 5s infinite;
+  -ms-animation:     blink 5s infinite;
+}
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media (min-width: 40rem) {
+  .column1 {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .column.full { width: 100%; }
+  .column.two-thirds { width: 66.7%; }
+  .column.half { width: 50%; }
+  .column.third { width: 33.3%; }
+  .column.fourth { width: 25%; }
+  .column.flow-opposite { float: right; }
+}
